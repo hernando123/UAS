@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="157dp"
+        android:background="#00FF00"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="silakan Di Input"
+            android:textColor="@color/white"
+            android:textSize="36dp" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edittext_name"
+        android:layout_margin="5dp"
+        android:hint="Nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edittext_email"
+        android:layout_margin="5dp"
+        android:hint="Masukkan Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:id="@+id/button_add"
+        android:text="Tambah Data"
+        android:background="#32CD32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:id="@+id/button_view"
+        android:text="Lihat Data"
+        android:background="#00FF00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

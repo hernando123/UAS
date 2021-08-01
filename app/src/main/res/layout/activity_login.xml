@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="30dp"
+    android:layout_marginLeft="30dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:textColor="#1D2226"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat Di Indomaet"
+        android:layout_margin="30dp"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:layout_width="271.94dp"
+        android:layout_height="210.71dp"
+        android:src="@drawable/login1" />
+
+    <EditText
+        android:textColor="#1F59B6"
+        android:drawableStart="@drawable/ic_baseline_mail_outline_24"
+        android:id="@+id/txUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:drawablePadding="10dp"
+        android:hint=" Email"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:textColor="#1F59B6"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:id="@+id/txPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:drawablePadding="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"/>
+
+    <LinearLayout
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="25dp">
+
+        <TextView
+            android:textColor="#1F59B6"
+            android:gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="Forget Password?"/>
+
+    </LinearLayout>
+
+    <Button
+        android:textColor="@color/white"
+        android:background="@drawable/bg_gradasi"
+        android:id="@+id/btnLogin"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="Login"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="25dp">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="Or via social media"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/google" />
+
+        <RelativeLayout
+            android:layout_width="17dp"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="50dp"
+            android:src="@drawable/facebook" />
+
+        <RelativeLayout
+            android:layout_width="17dp"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:layout_width="44dp"
+            android:layout_height="39dp"
+            android:src="@drawable/twiter" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="115dp">
+
+        <TextView
+            android:id="@+id/tvCreateAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+        <ImageView
+            android:src="@drawable/txtl"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>
